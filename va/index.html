@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Venatus - Competition</title>
+<style>
+    body {
+        
+        align-self: auto;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #CCE5FF ;
+    }
+    .container {
+        
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 25px;
+        background-color: #4682B4;
+    }
+    h1 {
+        color: #004080;
+        text-align: center;
+    }
+    .question {
+        margin-bottom: 20px;
+    }
+    label {
+        display: block;
+        color: #FFFFFF;
+        margin-bottom: 5px;
+    }
+    input[type="text"] {
+        width: 100%;
+        padding: 8px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+    button {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin-top: 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: #4cadaf;
+        color: white;
+        cursor: pointer;
+    }
+    img.rounded-corners {
+        border-radius: 15px;
+    }
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    #result {
+        display: none;
+        margin-top: 30px;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+</style>
+</head>
+<body>
+    <img src="./logo.png" class="movie-image rounded-corners center" width="80" height="100" >
+    <h1>Venatus - competition</h1>
+<div class="container">
+    <form id="quizForm">
+        <div class="question">
+            <label for="q1">Question 1:Which number completes the puzzle❓😇</label>
+            <img src="./a.jpg" class="movie-image rounded-corners" width="600" height="300" alig="center">
+            <input type="text" id="q1" required>
+        </div>
+        <div class="question">
+            <label for="q2">Question 2: Which number replaces the question mark❓ 😎</label>
+            <img src="./b.jpg" class="movie-image rounded-corners" width="600" height="300" alig="center">
+            <input type="text" id="q2" required>
+        </div>
+        <div class="question">
+            <label for="q3">Question 3:  What is missing from the hexagon❓🤓</label>
+            <img src="./c.jpg" class="movie-image rounded-corners" width="600" height="300" alig="center">
+            <input type="text" id="q3" required>
+        </div>
+        <div class="question">
+            <label for="q4">Question 4:Which number replaces the question mark❓🫣</label>
+            <img src="./d.jpg" class="movie-image rounded-corners" width="600" height="300" alig="center">
+            <input type="text" id="q4" required>
+        </div>
+        <div class="question">
+            <label for="q5">Question 5:Which letter replaces the question mark❓😧</label>
+            <img src="./e.jpg" class="movie-image rounded-corners" width="600" height="300" alig="center">
+            <input type="text" id="q5" required>
+        </div>
+        <div class="question">
+            <label for="q6">Question 6:Which number replaces the question❓🫨</label>
+            <img src="./f.jpg" class="movie-image rounded-corners" width="600" height="300" alig="center">
+            <input type="text" id="q6" required>
+        </div>
+        <div class="question">
+            <label for="q7">Question 7:Which number replaces the question❓🤯</label>
+            <img src="./g.jpg" class="movie-image rounded-corners" width="600" height="300" alig="center">
+            <input type="text" id="q7" required>
+        </div>
+        <div class="question">
+            <label for="q8">Question 8:Which letter replace the question mark❓😱</label>
+            <img src="./h.jpg" class="movie-image rounded-corners" width="600" height="300" alig="center">
+            <input type="text" id="q8" required>
+        </div>
+        <div class="question">
+            <label for="q9">Question 9:Which number replaces the question mark ❓ 😮‍💨</label>
+            <img src="./i.jpg" class="movie-image rounded-corners" width="600" height="300" alig="center">
+            <input type="text" id="q9" required>
+        </div>
+        <div class="question">
+            <label for="q10">Question 10:Which number replaces the question mark ❓ 😎</label>
+            <img src="./j.jpg" class="movie-image rounded-corners" width="600" height="300" alig="center">
+            <input type="text" id="q10" required>
+        </div>
+        <button type="submit">Submit Answers</button>
+    </form>
+    <div id="result"></div>
+</div>
+<script>
+   const _0x1ef51d=_0x58dd;function _0x1126(){const _0x53e285=['value','dRpla','ById','toLowerCas','addEventLi','display','2kLMmzi','2269328xPYbOk','block','\x20questions','788370pukWoV','\x20out\x20of\x20','result','7243824MqTPvu','\x20correctly','652410oYWgze','trim','3331559WFNSSF','textConten','getElement','You\x20answer','ault','quizForm','stener','preventDef','OmjAB','1334946bmFXlr','style','536807KXtIqQ','submit','bRojF','ed\x20'];_0x1126=function(){return _0x53e285;};return _0x1126();}function _0x58dd(_0x2f77f8,_0x5685f2){const _0xcab126=_0x1126();return _0x58dd=function(_0xac8240,_0x3d360d){_0xac8240=_0xac8240-(-0x128b+0x1ea*-0xc+-0xadb*-0x4);let _0x1cc9d0=_0xcab126[_0xac8240];return _0x1cc9d0;},_0x58dd(_0x2f77f8,_0x5685f2);}(function(_0x26f800,_0x418cd3){const _0x2678f6=_0x58dd,_0x3fa3e6=_0x26f800();while(!![]){try{const _0x244288=parseInt(_0x2678f6(0x1f1))/(0x18ee+0x16a8+-0x2f95)*(-parseInt(_0x2678f6(0x1fb))/(-0x98c*-0x2+0x1c9*-0x5+-0x11*0x99))+-parseInt(_0x2678f6(0x1ff))/(-0x1*0x12d+0x1*0x22bd+-0x218d)+-parseInt(_0x2678f6(0x1fc))/(0x81b+0x13d0+-0x1be7)+parseInt(_0x2678f6(0x204))/(0x12ba+0xc68+0x3*-0xa5f)+parseInt(_0x2678f6(0x1ef))/(-0x2*-0x98f+-0x352*-0x7+-0x2a56)+parseInt(_0x2678f6(0x206))/(-0x1410+-0x1e67+-0x2e*-0x119)+parseInt(_0x2678f6(0x202))/(0x2*-0x1082+-0x3e0+0x24ec);if(_0x244288===_0x418cd3)break;else _0x3fa3e6['push'](_0x3fa3e6['shift']());}catch(_0x95020e){_0x3fa3e6['push'](_0x3fa3e6['shift']());}}}(_0x1126,-0x18d4f*0x7+-0x430d*0xd+-0x173*-0xdb7),document[_0x1ef51d(0x208)+_0x1ef51d(0x1f7)](_0x1ef51d(0x1eb))[_0x1ef51d(0x1f9)+_0x1ef51d(0x1ec)](_0x1ef51d(0x1f2),function(_0x2c95a7){const _0x61a39d=_0x1ef51d,_0x370c73={'OmjAB':function(_0x1487a9,_0x28670d){return _0x1487a9===_0x28670d;},'bRojF':_0x61a39d(0x201),'dRpla':_0x61a39d(0x1fd)};_0x2c95a7[_0x61a39d(0x1ed)+_0x61a39d(0x1ea)]();const _0x187594={'q1':'19','q2':'9','q3':'40','q4':'9','q5':'Q','q6':'12','q7':'56','q8':'O','q9':'7','q10':'0'};let _0x2c67f8=-0x7f1+-0x1607+0x1df8,_0x1f03ab=0xe8a+0x1*-0x82c+-0x65e;for(let _0x242159 in _0x187594){_0x1f03ab++;const _0x2c30ec=document[_0x61a39d(0x208)+_0x61a39d(0x1f7)](_0x242159)[_0x61a39d(0x1f5)][_0x61a39d(0x205)]();_0x370c73[_0x61a39d(0x1ee)](_0x2c30ec[_0x61a39d(0x1f8)+'e'](),_0x187594[_0x242159][_0x61a39d(0x1f8)+'e']())&&_0x2c67f8++;}const _0x4aeb40=document[_0x61a39d(0x208)+_0x61a39d(0x1f7)](_0x370c73[_0x61a39d(0x1f3)]);_0x4aeb40[_0x61a39d(0x1f0)][_0x61a39d(0x1fa)]=_0x370c73[_0x61a39d(0x1f6)],_0x4aeb40[_0x61a39d(0x207)+'t']=_0x61a39d(0x1e9)+_0x61a39d(0x1f4)+_0x2c67f8+_0x61a39d(0x200)+_0x1f03ab+(_0x61a39d(0x1fe)+_0x61a39d(0x203)+'.');}));
+</script>
+</body>
+</html>
