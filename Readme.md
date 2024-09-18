@@ -41,12 +41,6 @@ To get started with the Quiz Time application, follow these steps:
    ```bash
    python main.py
    ```
-
-## Screenshots 📸
-
-![Screenshot 1](link-to-screenshot-1)
-![Screenshot 2](link-to-screenshot-2)
-
 ## Contributing 🤝
 
 If you have any suggestions or improvements, feel free to contribute! Here’s how you can help:
